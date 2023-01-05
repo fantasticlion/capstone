@@ -73,10 +73,66 @@ function App() {
           <img src="https://libapps.s3.amazonaws.com/accounts/222921/images/banner_january_22.png" 
             width="1680"></img>
         </h1>
-        <div className = "product"> {
-          filterData.sort(allSorts[sort].method)
-            .map ((item, index) => (<ProductItem key={"product" + index} info = {item} 
-              added = {favorites[item.name]} setStateOfParent={updateFavorites}/>))}
+        <div className = "product"> 
+
+          <div className="item">
+            <button>{"Portals and Gateways"}</button>
+            <img src={"https://www.library.northwestern.edu/images/libraries-collections/mathematics-chalkboards.jpg"}></img>
+            <ul>
+              <li>{"Electronic Library of Mathematics"}</li>
+              <li>{"Math Forum @ Drexel"}</li>
+              <li>{"MathDL: The Maa Mathematical Sciences Digital Library"}</li>
+              <li>{"S.O.S. Mathematics: Sites of Interest"}</li>
+              <li>{"SciCentral"}</li>
+              <li>{"SIAM - Society for Industrial and Applied Mathematics"}</li>
+            </ul>
+          </div>
+
+          <div className="item">
+            <button>{"Computer Science Websites"}</button>
+            <img src={"https://al.nd.edu//assets/380450/1200x630/bacs_code.jpg"}></img>
+            <ul>
+              <li>{"Association for Computing Machinery (ACM)"}</li>
+              <li>{"Association for Information Systems (AIS)"}</li>
+              <li>{"Computing Research Association (CRA)"}</li>
+              <li>{"IEEE"}</li>
+              <li>{"Java Tutorials from IBM DeveloperWorks"}</li>
+              <li>{"Science Daily"}</li>
+              <li>{"Information Week"}</li>
+            </ul>
+          </div>
+
+          <div className="item">
+            <button>{"Math Websites"}</button>
+            <img src={"https://www.stoodnt.com/blog/wp-content/uploads/2021/01/Websites-for-Teaching-and-Learning-Math.jpg"}></img>
+            <ul>
+              <li>{"American Mathematical Society"}</li>
+              <li>{"arXiv.org"}</li>
+              <li>{"Math Atlas"}</li>
+              <li>{"Math Forum @ Drexel"}</li>
+              <li>{"Math2.org"}</li>
+              <li>{"Mathematical Association of America"}</li>
+              <li>{"S.O.S Mathematics: Tables and Formulas"}</li>
+              <li>{"The MACTutor History of Mathematics Archive"}</li>
+              <li>{"Wolfram Functions"}</li>
+            </ul>
+          </div>
+
+          <div className="item">
+            <button>{"Library Director"}</button>
+            <img src={"https://libapps.s3.amazonaws.com/accounts/61742/profiles/53133/New_Profile_Raw.jpg"}></img>
+            <ul>
+              <li>{"Jeff Rosedale"}</li>
+              <li>{"Email Me"}</li>
+              <li>{"Contact:"}</li>
+              <li>{"2900 Purchase Street"}</li>
+              <li>{"Room LIB-017"}</li>
+              <li>{"Purchase, NY 10577"}</li>
+              <li>{"914-323-5277"}</li>
+              <li>{"Subjects:"}</li>
+              <li>{"African Studies, Anthropology, Communications, Computer Science, International Studies, Mathematics, Sociology"}</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>);
