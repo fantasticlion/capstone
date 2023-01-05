@@ -69,9 +69,9 @@ function App() {
   return (
     <div className = "App">
       <div className = "product-cards">
-        <h1>Apple Store&nbsp;
-          <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" 
-            width="54" height="66" padding="100"></img>
+        <h1>
+          <img src="https://libapps.s3.amazonaws.com/accounts/222921/images/banner_january_22.png" 
+            width="1680"></img>
         </h1>
         <div className = "product"> {
           filterData.sort(allSorts[sort].method)

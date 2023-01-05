@@ -21,33 +21,6 @@ button:hover {
   cursor: pointer;
 }
 
-.favorites {
-  background-color: rgb(185, 146, 112);
-  width: 15em;
-  position: fixed;
-  top: 4em;
-  right: 0;
-  padding-bottom: 2em;
-  padding-left: 2.5em;
-  border-top-left-radius: 1em;
-  border-bottom-left-radius: 1em;
-}
-
-.favorites input{
-  margin-bottom: 0.9em;
-}
-
-.favorites button {
-  font-size: 1.2em;
-  font-weight: bold;
-  background-color: rgb(224, 183, 102);
-  border-color: black;
-  border-width: 0.15em;
-  border-radius: 1em;
-  margin-top: 1em;
-  padding: 0.5em 1em;
-}
-
 .product {
   display: flex;
   flex-wrap: wrap;
@@ -57,29 +30,28 @@ button:hover {
   background-color:rgb(144, 38, 61);
   width: 35em;
   margin: 1.5em;
+  margin-left: 3em;
   padding: 2em;
   border-radius: 1.5em;
 }
 
 .item img {
-  float: left;
-  max-width: 20em;
-  max-height: 20em;
+  max-width: 30em;
+  max-height: 25em;
   object-fit: cover;
   margin-right: 4em;
+  border-radius: 1.5em;
 }
 
 .item button {
-  font-size: 1.2em;
+  font-size: 1.7em;
   font-weight: bold;
   background-color: rgb(183, 231, 255);
-  border-color:rgb(0, 0, 0);
+  border-color: transparent;
   border-width: 0.18em;
   border-radius: 1em;
   padding: 0.5em 1em;
-  margin-top: 1em;
-  margin-right: 1em;
-  float: right;
+  margin-bottom: 1em;
 }
 
 .item h1 {
