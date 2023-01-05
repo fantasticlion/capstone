@@ -79,12 +79,12 @@ function App() {
             <button>{"Portals and Gateways"}</button>
             <img src={"https://www.library.northwestern.edu/images/libraries-collections/mathematics-chalkboards.jpg"}></img>
             <ul>
-              <li>{"Electronic Library of Mathematics"}</li>
-              <li>{"Math Forum @ Drexel"}</li>
-              <li>{"MathDL: The Maa Mathematical Sciences Digital Library"}</li>
-              <li>{"S.O.S. Mathematics: Sites of Interest"}</li>
-              <li>{"SciCentral"}</li>
-              <li>{"SIAM - Society for Industrial and Applied Mathematics"}</li>
+              <li><a href="https://www.emis.de/ELibM.html">Electronic Library of Mathematics</a></li>
+              <li><a href="https://www.nctm.org/classroomresources/">Math Forum @ Drexel</a></li>
+              <li><a href="https://www.maa.org/about-maa/maa-history/mathdl">MathDL: The Maa Mathematical Sciences Digital Library</a></li>
+              <li><a href="http://www.sosmath.com/wwwsites.html">S.O.S. Mathematics: Sites of Interest</a></li>
+              <li><a href="https://www.scicentral.com/index.html">SciCentral</a></li>
+              <li><a href="https://www.siam.org/">SIAM - Society for Industrial and Applied Mathematics</a></li>
             </ul>
           </div>
 
@@ -92,13 +92,13 @@ function App() {
             <button>{"Computer Science Websites"}</button>
             <img src={"https://al.nd.edu//assets/380450/1200x630/bacs_code.jpg"}></img>
             <ul>
-              <li>{"Association for Computing Machinery (ACM)"}</li>
-              <li>{"Association for Information Systems (AIS)"}</li>
-              <li>{"Computing Research Association (CRA)"}</li>
-              <li>{"IEEE"}</li>
-              <li>{"Java Tutorials from IBM DeveloperWorks"}</li>
-              <li>{"Science Daily"}</li>
-              <li>{"Information Week"}</li>
+              <li><a href="https://www.acm.org/">Association for Computing Machinery (ACM)</a></li>
+              <li><a href="https://aisnet.org/default.aspx">Association for Information Systems (AIS)</a></li>
+              <li><a href="https://cra.org/">Computing Research Association (CRA)</a></li>
+              <li><a href="https://www.ieee.org/">IEEE</a></li>
+              <li><a href="https://developer.ibm.com/languages/java/">Java Tutorials from IBM DeveloperWorks</a></li>
+              <li><a href="https://www.sciencedaily.com/news/computers_math/computer_science/">Science Daily</a></li>
+              <li><a href="https://www.informationweek.com/">Information Week</a></li>
             </ul>
           </div>
 
@@ -106,15 +106,15 @@ function App() {
             <button>{"Math Websites"}</button>
             <img src={"https://www.stoodnt.com/blog/wp-content/uploads/2021/01/Websites-for-Teaching-and-Learning-Math.jpg"}></img>
             <ul>
-              <li>{"American Mathematical Society"}</li>
-              <li>{"arXiv.org"}</li>
-              <li>{"Math Atlas"}</li>
-              <li>{"Math Forum @ Drexel"}</li>
-              <li>{"Math2.org"}</li>
-              <li>{"Mathematical Association of America"}</li>
-              <li>{"S.O.S Mathematics: Tables and Formulas"}</li>
-              <li>{"The MACTutor History of Mathematics Archive"}</li>
-              <li>{"Wolfram Functions"}</li>
+              <li><a href="https://www.ams.org/home/page">American Mathematical Society</a></li>
+              <li><a href="https://arxiv.org/">arXiv.org</a></li>
+              <li><a href="http://www.math-atlas.org/">Math Atlas</a></li>
+              <li><a href="https://www.nctm.org/classroomresources/">Math Forum @ Drexel</a></li>
+              <li><a href="http://math2.org/">Math2.org</a></li>
+              <li><a href="https://www.maa.org/">Mathematical Association of America</a></li>
+              <li><a href="http://www.sosmath.com/tables/tables.html">S.O.S Mathematics: Tables and Formulas</a></li>
+              <li><a href="https://mathshistory.st-andrews.ac.uk/">The MACTutor History of Mathematics Archive</a></li>
+              <li><a href="https://functions.wolfram.com/">Wolfram Functions</a></li>
             </ul>
           </div>
 
