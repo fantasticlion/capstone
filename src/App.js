@@ -119,18 +119,20 @@ function App() {
           </div>
 
           <div className="item">
-            <button>{"Library Director"}</button>
+            <button>Library Director</button>
             <img src={"https://libapps.s3.amazonaws.com/accounts/61742/profiles/53133/New_Profile_Raw.jpg"}></img>
+            <h3>Jeff Rosedale</h3>
+            <div className='subbutton'><a href="mailto: jeff.rosedale@mville.edu">Email Me</a></div>
+            <h3>Contact:</h3>
             <ul>
-              <li>{"Jeff Rosedale"}</li>
-              <li>{"Email Me"}</li>
-              <li>{"Contact:"}</li>
-              <li>{"2900 Purchase Street"}</li>
-              <li>{"Room LIB-017"}</li>
-              <li>{"Purchase, NY 10577"}</li>
-              <li>{"914-323-5277"}</li>
-              <li>{"Subjects:"}</li>
-              <li>{"African Studies, Anthropology, Communications, Computer Science, International Studies, Mathematics, Sociology"}</li>
+              <li>2900 Purchase Street</li>
+              <li>Room LIB-017</li>
+              <li>Purchase, NY 10577</li>
+              <li>914-323-5277</li>
+              </ul>
+            <h3>Subjects:</h3>
+            <ul>
+              <li><a href="https://mville.libguides.com/sb.php?subject_id=74340">African Studies</a>, <a href="https://mville.libguides.com/sb.php?subject_id=69406">Anthropology</a>, <a href="https://mville.libguides.com/sb.php?subject_id=69394">Communications</a>, <a href="https://mville.libguides.com/sb.php?subject_id=74345">Computer Science</a>, <a href="https://mville.libguides.com/sb.php?subject_id=74351">International Studies</a>, <a href="https://mville.libguides.com/sb.php?subject_id=74344">Mathematics</a>, <a href="https://mville.libguides.com/sb.php?subject_id=74336">Sociology</a></li>
             </ul>
           </div>
         </div>

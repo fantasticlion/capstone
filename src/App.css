@@ -50,6 +50,17 @@ li {
   margin-bottom: 1em;
 }
 
+.subbutton {
+  font-size: 1em;
+  font-weight: bold;
+  width: 4.4em;
+  background-color: rgb(53, 131, 97);
+  border-radius: 0.8em;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+  margin-left: 1.5em;
+}
+
 .item h1 {
   text-align: center;
   font-size: 4em;
