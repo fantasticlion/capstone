@@ -31,6 +31,10 @@ li {
   border-radius: 1.5em;
 }
 
+img {
+  margin-top: 1.5em;
+}
+
 .item img {
   max-width: 30em;
   max-height: 25em;
@@ -67,8 +71,18 @@ li {
   width: 43em;
   background-color: #fcfdd8;
   border-radius: 0.8em;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   margin-left: 1.5em;
+}
+
+.secondbutton {
+  float: right;
+  font-size: 1em;
+  font-weight: bold;
+  width: 51em;
+  background-color: rgb(255, 194, 136);
+  border-radius: 0.8em;
+  padding: 0.5em 0.5em;
 }
 
 .item h1 {
