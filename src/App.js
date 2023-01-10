@@ -5,10 +5,11 @@ function App() {
   return (
     <div className = "App">
       <div className = "product-cards">
-        <h1>
-          <img src="https://libapps.s3.amazonaws.com/accounts/222921/images/banner_january_22.png" 
-            width="1680"></img>
-        </h1>
+      <img src="https://libapps.s3.amazonaws.com/accounts/222921/images/banner_january_22.png" 
+          width="1680"></img>
+        
+      <div className='navbutton'><a href="https://mville.libguides.com/libraryhome">Manhattanville College Library</a> / <a href="https://mville.libguides.com/">Library Guides</a> / <a href="https://mville.libguides.com/mathcomputer">Math and Computer Science</a> / Websites</div>
+      <div className='navbutton'>A starting point for research in math and computer science.</div>
         <div className = "product"> 
 
           <div className="item">
