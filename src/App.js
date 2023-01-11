@@ -74,6 +74,8 @@ function App() {
               <li><a href="https://mville.libguides.com/sb.php?subject_id=74340">African Studies</a>, <a href="https://mville.libguides.com/sb.php?subject_id=69406">Anthropology</a>, <a href="https://mville.libguides.com/sb.php?subject_id=69394">Communications</a>, <a href="https://mville.libguides.com/sb.php?subject_id=74345">Computer Science</a>, <a href="https://mville.libguides.com/sb.php?subject_id=74351">International Studies</a>, <a href="https://mville.libguides.com/sb.php?subject_id=74344">Mathematics</a>, <a href="https://mville.libguides.com/sb.php?subject_id=74336">Sociology</a></li>
             </ul>
           </div>
+          <div className='secondnavbutton'>Last Updated: Aug 28, 2022 4:44 PM | URL: https://mville.libguides.com/mathcomputer | <a href="javascript: window.print();"><i class="fa fa-print" aria-hidden="true" title="Print Page"></i> Print Page</a> subjects: <a href="https://mville.libguides.com/sb.php?subject_id=74345">computer science</a>, <a href="https://mville.libguides.com/sb.php?subject_id=74344">mathematics</a></div>
+          <div className="thirdbutton"><a href="https://mville.libapps.com/libapps/login.php?site_id=6353&target64=L2xpYmd1aWRlcy9hZG1pbl9jLnBocD9nPTM3MDAzOSZwPTI1MDAzNTU=">Login to LibApps</a> <a href="mailto: library@mville.edu">Report a problem</a></div>
         </div>
       </div>
     </div>);

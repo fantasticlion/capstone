@@ -25,8 +25,9 @@ li {
 .item {
   background-color:rgb(144, 38, 61);
   width: 35em;
-  margin: 1.5em;
+  margin: 3em;
   margin-left: 3em;
+  margin-bottom: 3em;
   padding: 2em;
   border-radius: 1.5em;
 }
@@ -68,11 +69,23 @@ img {
 .navbutton {
   font-size: 1em;
   font-weight: bold;
-  width: 43em;
+  width: 50em;
   background-color: #fcfdd8;
   border-radius: 0.8em;
   margin-bottom: 0.5em;
   margin-left: 1.5em;
+}
+
+.secondnavbutton {
+  font-size: 1em;
+  font-weight: bold;
+  width: 50em;
+  background-color: rgb(120, 255, 228);
+  padding: 0.5em;
+  border-radius: 0.8em;
+  margin-bottom: 0.5em;
+  margin-top: 2em;
+  margin-left: 10em;
 }
 
 .secondbutton {
@@ -80,9 +93,21 @@ img {
   font-size: 1em;
   font-weight: bold;
   width: 51em;
-  background-color: rgb(255, 194, 136);
-  border-radius: 0.8em;
+  background-color: rgb(255, 220, 188);
   padding: 0.5em 0.5em;
+}
+
+.thirdbutton {
+  float: right;
+  font-size: 1em;
+  font-weight: bold;
+  width: 10em;
+  background-color: rgb(120, 255, 228);
+  border-radius: 0.8em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  margin-left: 1.5em;
+  padding: 0.5em;
 }
 
 .item h1 {
