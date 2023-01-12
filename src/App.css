@@ -55,6 +55,26 @@ img {
   margin-bottom: 1em;
 }
 
+.barbutton {
+  float: right;
+  font-size: 1em;
+  font-weight: bold;
+  width: 8.9em;
+  padding: 1.78em 0.5em;
+  background-color: #a6093e;
+  margin-top: 1.5em;
+}
+
+.barbutton:hover{
+  float: right;
+  font-size: 1em;
+  font-weight: bold;
+  width: 8.9em;
+  padding: 1.78em 0.5em;
+  background-color: rgb(93, 143, 171);
+  margin-top: 1.5em;
+}
+
 .subbutton {
   font-size: 1em;
   font-weight: bold;
@@ -153,4 +173,26 @@ img {
 
 .item a:active {
   text-decoration: underline;
+}
+
+.barbutton a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+.barbutton a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+.barbutton a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+.barbutton a:active {
+  text-decoration: none;
 }
