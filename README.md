@@ -1,5 +1,5 @@
-Jimmy Chen Capstone for CSCI 1300 User Interfaces and User Experience
-Responsive Redesign
+Capstone for CSCI 1300 User Interfaces and User Experience
+Responsive Redesign of the Website of Manhattanville College Library’s Page for Applied math, Math and Computer Science Websites
 
 
 Description:
@@ -21,3 +21,5 @@ Links:
 
 Link to the page: https://fantasticlion.github.io/capstone/
 Link to the github repository: https://github.com/fantasticlion/capstone
+
+
